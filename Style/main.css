@@ -1,0 +1,128 @@
+:root {
+    --color: #594dffaf;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-shadow: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    color: white;
+    background-color: var(--color);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+header .logoHeader {
+    margin-left: 15px;
+    width: 176.37px;
+    height: 63.76px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 10px;
+    font-weight: 24.5px;
+}
+
+.contato {
+    border: 1px white solid;
+    padding: 10px 15px;
+}
+
+.verTodos {
+    color: black;
+    border: 1px black solid;
+    padding: 10px 15px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("Img/hero_topo_servicos.png") no-repeat center center;
+    background-size: cover;
+    height: 72vh;
+}
+
+h1 .title {
+    font-weight: 900px;
+}
+
+.title2 {
+    color: var(--color);
+    font-weight: 900px;
+}
+
+.iconBar {
+    display: block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.conteiner {
+    margin-left: 60px;
+    color: white;
+    display: block;
+}
+
+.conteiner2 {
+    color: black;
+    margin-left: 60px;
+    margin-right: 25px;
+}
+
+p .conteiner {
+    font-weight: 400px;
+}
+
+.button {
+    margin-top: 60px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    margin-top: 85px;
+    color: white;
+    background-color: var(--color);
+}
+
+footer .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.carrosel-filmes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
